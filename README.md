@@ -634,23 +634,18 @@ php artisan route:clear
 
 # 📸 Screenshots
 
-You can add screenshots of the application here.
 
 ## 🏠 Storefront
 
-> Add a screenshot of the store homepage.
 
 ## 📊 Admin Dashboard
 
-> Add a screenshot of the administrative dashboard.
 
 ## 📦 Product Management
 
-> Add a screenshot of the products management page.
 
 ## 🗂️ Category Management
 
-> Add a screenshot of the categories management page.
 
 ---
 
