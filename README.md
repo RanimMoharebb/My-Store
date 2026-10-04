@@ -134,14 +134,14 @@ Supported operations include:
 
 ### Backend
 
-* 🐘 **PHP 8.1+**
-* 🔴 **Laravel 10**
-* 🔐 **Laravel Sanctum**
-* 🔑 **Laravel Breeze**
-* 🌐 **Guzzle HTTP Client**
-* 🔔 **Yoeunes Toastr**
-* 🧪 **PHPUnit**
-* 🧰 **Laravel Tinker**
+* **PHP 8.1+**
+* **Laravel 10**
+* **Laravel Sanctum**
+* **Laravel Breeze**
+* **Guzzle HTTP Client**
+* **Yoeunes Toastr**
+* **PHPUnit**
+* **Laravel Tinker**
 
 ### Frontend
 
