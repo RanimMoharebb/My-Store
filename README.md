@@ -18,6 +18,7 @@
 <br>
 
 **A modern web application for managing products, categories, and store content, with authentication, an administrative dashboard, a storefront, shopping cart functionality, and product REST APIs.**
+
 <small> <a href="https://drive.google.com/file/d/1_4jwBvDZknRlbfUSFfqjx7JqAgwq75Lz/view?usp=sharing">Watch the My-Store Demo</a></small>
 
 </div>
