@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛍️ My Store
+# My Store
 
 ### A Laravel-Based E-Commerce & Store Management Application
 
@@ -18,12 +18,13 @@
 <br>
 
 **A modern web application for managing products, categories, and store content, with authentication, an administrative dashboard, a storefront, shopping cart functionality, and product REST APIs.**
+<small> <a href="https://drive.google.com/file/d/1_4jwBvDZknRlbfUSFfqjx7JqAgwq75Lz/view?usp=sharing">Watch the My-Store Demo</a></small>
 
 </div>
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 **My Store** is an e-commerce and store management web application built with **Laravel 10** and **PHP**.
 
@@ -35,9 +36,9 @@ The application follows Laravel's MVC architecture and uses modern frontend tool
 
 ---
 
-## ✨ Features
+## Features
 
-### 🛍️ Storefront
+### Storefront
 
 * Customer-facing store interface
 * Product display pages
@@ -46,7 +47,7 @@ The application follows Laravel's MVC architecture and uses modern frontend tool
 * Product presentation
 * Responsive frontend structure
 
-### 📦 Product Management
+### Product Management
 
 Administrators can:
 
@@ -56,7 +57,7 @@ Administrators can:
 * Update products
 * Delete products
 
-### 🗂️ Category Management
+### Category Management
 
 Administrators can:
 
@@ -66,7 +67,7 @@ Administrators can:
 * Update categories
 * Delete categories
 
-### 📝 Blog Post Management
+### Blog Post Management
 
 The application includes functionality for:
 
@@ -76,12 +77,12 @@ The application includes functionality for:
 * Updating posts
 * Deleting posts
 
-### 🛒 Shopping Cart
+### Shopping Cart
 
 * Cart page and cart controller integration
 * Dedicated shopping cart route
 
-### 🔐 Authentication & User Management
+### Authentication & User Management
 
 Authentication functionality is provided through **Laravel Breeze**.
 
@@ -99,7 +100,7 @@ The application supports:
 * Password updates
 * Account deletion
 
-### 👨‍💼 Administrative Dashboard
+### Administrative Dashboard
 
 The application includes a protected administrative area.
 
@@ -115,7 +116,7 @@ The dashboard includes a structured interface with:
 * Main content
 * Footer
 
-### 🔌 REST API
+### REST API
 
 The project provides RESTful API endpoints for product operations.
 
@@ -128,7 +129,7 @@ Supported operations include:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 
@@ -143,25 +144,25 @@ Supported operations include:
 
 ### Frontend
 
-* 🎨 **Tailwind CSS**
-* ⚡ **Vite**
-* 🟨 **JavaScript**
-* 🏔️ **Alpine.js**
-* 🌐 **HTML**
-* 🎨 **CSS**
-* 📡 **Axios**
+* **Tailwind CSS**
+* **Vite**
+* **JavaScript**
+* **Alpine.js**
+* **HTML**
+* **CSS**
+* **Axios**
 
 ### Development Tools
 
-* 📦 **Composer**
-* 📦 **npm**
-* 🛠️ **PostCSS**
-* 🔧 **Autoprefixer**
-* ✨ **Laravel Pint**
+* **Composer**
+* **npm**
+* **PostCSS**
+* **Autoprefixer**
+* **Laravel Pint**
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 The application follows the **Model-View-Controller (MVC)** architecture provided by Laravel.
 
@@ -195,7 +196,7 @@ The application follows the **Model-View-Controller (MVC)** architecture provide
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 mystore-main/
@@ -239,9 +240,9 @@ mystore-main/
 
 ---
 
-# 🧩 Application Components
+# Application Components
 
-## 🎮 Controllers
+## Controllers
 
 The application includes controllers for:
 
@@ -260,7 +261,7 @@ The project also contains a dedicated API product controller for handling produc
 
 ---
 
-## 🗃️ Models
+## Models
 
 The application includes the following models:
 
@@ -277,7 +278,7 @@ The application includes the following models:
 
 ---
 
-# 🎨 Frontend Structure
+# Frontend Structure
 
 The application uses Laravel Blade templates.
 
@@ -324,7 +325,7 @@ resources/views/
 
 ---
 
-# 🔐 Authorization
+# Authorization
 
 Administrative routes are protected using authentication and a custom admin middleware.
 
@@ -340,9 +341,9 @@ This ensures that administrative functionality is accessible only to authenticat
 
 ---
 
-# 🔌 API Endpoints
+# API Endpoints
 
-## 📦 Products API
+## Products API
 
 | Method | Endpoint             | Description                 |
 | ------ | -------------------- | --------------------------- |
@@ -359,9 +360,9 @@ GET /api/products
 
 ---
 
-# 🧭 Main Web Routes
+# Main Web Routes
 
-## 🏠 Storefront
+## Storefront
 
 | Route          | Description              |
 | -------------- | ------------------------ |
@@ -371,7 +372,7 @@ GET /api/products
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 
 | Route             | Description                  |
 | ----------------- | ---------------------------- |
@@ -380,7 +381,7 @@ GET /api/products
 
 ---
 
-## 📦 Products
+## Products
 
 | Route                 | Description      |
 | --------------------- | ---------------- |
@@ -390,7 +391,7 @@ GET /api/products
 
 ---
 
-## 🗂️ Categories
+## Categories
 
 | Route                   | Description       |
 | ----------------------- | ----------------- |
@@ -400,7 +401,7 @@ GET /api/products
 
 ---
 
-## 📝 Posts
+## Posts
 
 | Route              | Description   |
 | ------------------ | ------------- |
@@ -410,11 +411,11 @@ GET /api/products
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 Follow the steps below to run the project locally.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Make sure the following software is installed:
 
@@ -437,9 +438,9 @@ git --version
 
 ---
 
-## 📥 Installation
+## Installation
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone <repository-url>
@@ -453,7 +454,7 @@ cd mystore-main
 
 ---
 
-### 2️⃣ Install PHP Dependencies
+### Install PHP Dependencies
 
 ```bash
 composer install
@@ -461,7 +462,7 @@ composer install
 
 ---
 
-### 3️⃣ Install Frontend Dependencies
+### Install Frontend Dependencies
 
 ```bash
 npm install
@@ -469,7 +470,7 @@ npm install
 
 ---
 
-### 4️⃣ Configure Environment Variables
+### Configure Environment Variables
 
 Create your environment file:
 
@@ -487,7 +488,7 @@ cp .env.example .env
 
 ---
 
-### 5️⃣ Generate the Application Key
+### Generate the Application Key
 
 ```bash
 php artisan key:generate
@@ -495,7 +496,7 @@ php artisan key:generate
 
 ---
 
-### 6️⃣ Configure the Database
+### Configure the Database
 
 Open the `.env` file and configure your database connection.
 
@@ -514,7 +515,7 @@ DB_PASSWORD=
 
 ---
 
-### 7️⃣ Run Database Migrations
+### Run Database Migrations
 
 ```bash
 php artisan migrate
@@ -522,7 +523,7 @@ php artisan migrate
 
 ---
 
-### 8️⃣ Start the Vite Development Server
+### Start the Vite Development Server
 
 ```bash
 npm run dev
@@ -530,7 +531,7 @@ npm run dev
 
 ---
 
-### 9️⃣ Start the Laravel Server
+### Start the Laravel Server
 
 Open another terminal and run:
 
@@ -546,7 +547,7 @@ http://127.0.0.1:8000
 
 ---
 
-# 🧪 Testing
+# Testing
 
 The project uses **PHPUnit** for testing.
 
@@ -564,7 +565,7 @@ vendor/bin/phpunit
 
 ---
 
-# 🧹 Code Formatting
+# Code Formatting
 
 Laravel Pint is included for PHP code formatting.
 
@@ -582,7 +583,7 @@ vendor\bin\pint
 
 ---
 
-# ⚡ Production Build
+# Production Build
 
 Build the frontend assets for production:
 
@@ -592,7 +593,7 @@ npm run build
 
 ---
 
-# 🛠️ Useful Commands
+# Useful Commands
 
 ### View All Routes
 
@@ -632,24 +633,7 @@ php artisan route:clear
 
 ---
 
-# 📸 Screenshots
-
-
-## 🏠 Storefront
-
-
-## 📊 Admin Dashboard
-
-
-## 📦 Product Management
-
-
-## 🗂️ Category Management
-
-
----
-
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome.
 
